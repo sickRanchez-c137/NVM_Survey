@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sick Ranchez</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	.collapsible {
+	  background-color: #777;
+	  color: white;
+	  cursor: pointer;
+	  padding: 18px;
+	  width: 100%;
+	  border: none;
+	  text-align: left;
+	  outline: none;
+	  font-size: 15px;
+	}
+
+	.active, .collapsible:hover {
+	  background-color: #555;
+	}
+
+	.content {
+	  padding: 0 18px;
+	  display: none;
+	  overflow: hidden;
+	  background-color: #f1f1f1;
+	}
+	</style>
+</head>
+
+<body>
+	<h1 align="center">Non Volatile Memory Survey</h1>
+
+	<hr>
+	<p align="center"> Prawar Poudel</p>
+	<hr>
+	<button type="button" class="collapsible">Introduction</i></button>
+	<div class="content">
+		<p>
+			write about non volatile memory here
+		</p>
+	</div>
+	<hr>
+
+	<button type="button" class="collapsible">Flash Memory</i></button>
+	<div class="content">
+		<p>
+			write about flash memory here
+		</p>
+		<button type="button" class="collapsible">NAND Flash</i></button>
+		<div class="content">
+			<p>
+				
+			</p>
+		</div>
+		<hr>
+		<button type="button" class="collapsible">NOR Flash</i></button>
+		<div class="content">
+			<p>
+				
+			</p>
+		</div>
+		<hr>
+		<button type="button" class="collapsible">SuperFlash Flash</i></button>
+		<div class="content">
+			<p>
+				
+			</p>
+		</div>
+		<hr>
+		<button type="button" class="collapsible">Mirror Bit Flash Technology</i></button>
+		<div class="content">
+			<p>
+				
+			</p>
+		</div>
+
+	</div>
+	<hr>
+
+	<button type="button" class="collapsible">Magnetic RAM</i></button>
+	<div class="content">
+		<p>
+			Magnetoresistive Random Access Memory or MRAM is a non-voltile memory that uses magnitic property to store data on them rather than charges or current flow as in other memory technologies. MRAMs are touted to be universal memory.
+		</p>
+		<hr>
+		<p>
+			<b>Simple Structure:</b> Storage in MRAM is done in magnetic elements that are two ferromagnitic plates separated by a thin insulating layer. Of these two plates, one is permanent magnet (fixed layer) with a set polarity while the magnetization of other plate could be changed (free layer) by external field. This structure, called <i>Magnetic Tunnel Junction</i>, forms a single cell while a grid of such cells form a memory device.
+		</p>
+		<hr>
+		<p>
+			<b>Tunnel Magnetoresistance:</b> This is the effect that occurs in a structure that consists of two ferromagnetic plates or materials that are separated by an insulating layer. If the insulating layer is thin enough, electrons can tunnel from one ferromagnetic layer/plate to another. If the magnitization in the two plates are in parallel orientation, the liklihood of the electron to tunnel through the insulating layer is more than if they are in antiparallel orientation.
+		</p>
+		<hr>
+		<p>
+			Since the resistance of the cell changes with the relative orientation of the magnetic plates, reading of data is done by measuring the electrical resistance of the cell. When the two plates are oriented in same direction, the resistance offered is low and will be read as 1 while if the two plates are oriented in different directions, the resistance offered is high and will be read as 0.
+		</p>
+		<hr>
+		<p>
+			<b>Write disturb</b>: Writing to the memory is performed by changing the magnetic orientation of the plate whose magnetization can be changed. Conventional method of writing requires substantial amount of current on the word and bit lines (the fields being perpendicular to each other). Another negative point of MRAM is the induced field might effect multiple cells, thus limiting the scaling below 100nm <a href="https://doi.org/10.1016/j.mattod.2017.07.007">(ref)</a>. This problem where the field overlaps multiple cells causes <b>write disturb</b> in MRAM.
+		</p>
+		<hr>
+		<p>
+			<b>STT MRAM</b>: A newer technique called <b>Spin Torque Transfer MRAM</b> that uses Spin Torque Transfer technology. Under the Spin Torque Transfer technology, an electric current that is unpolarized (unpolarized current contains 50% electrons in each orientation) is passed through the fixed layer. This causes the electric current to be spin polarized and thus creates spin-polarized current. When this spin-polarized current is directed into the free layer, the angular momentum can be transferred to this layer. This changes the orientation of the free layer. Here the torque developed while changing the orientation of the current is transferred to the free layer. This creates parallel orientation between the fixed and free layer. If it is required to change the orientation from parallel to antiparallel, the current direction is reversed. Here, the electrons are sent from the free layer to the fixed layer; majority electrons pass to the fixed layer while a minority electrons are reflected; the reflected electrons transfers the angular momentum to the free layer thus changing the orientation to antiparallel.
+		</p>
+		<hr>
+		<p>
+			<b>Spin Orbit Torque</b>: SOT MRAM is a more recent kind of MRAM technology where an additional layer of heavy metal is attached to the free layer. When a current is passed through the heavy metal layer, a spin polarized current is created in direction perpendicular to the unpolarized current. This transfers its angular momentum to the free layer thus performing switching operation on free layer <a href="https://doi.org/10.1016/j.sysarc.2018.11.005">(ref)</a>. The basic principal is based on the idea that a charge current in a heavy metal creates a spin current in a transverse direction or Hall Effect <a href="10.1109/JXCDC.2017.2762699">(ref)</a>. While this is still a under-development technology, researcher at ETH Zurich have reported writing operations in the range of 100 picoseconds <a href="https://scitechdaily.com/next-generation-magnetic-memory-breakthrough-writing-data-in-under-a-nanosecond/">(ref)</a> and <a href="https://www.nature.com/articles/s41565-019-0607-7">(ref)</a>.
+		</p>
+		<hr>
+		<hr>
+		<p>
+			<b>In Plane MRAM</b> : In Plane MRAM are the ones where the magnetizations of the free and fixed layer lie in the same plane as the film-plane.
+		</p>
+		<p>
+			<b>Perpendicular MRAM</b> : In Perpendicular MRAM, the magnetizations of the free and fixed layer are perpendicular to the film-plane.
+		</p>
+	</div>
+	<hr>
+
+	<button type="button" class="collapsible">Ferroelectric RAM</i></button>
+	<div class="content">
+		<p>
+			FRAM or FeRAM is a class of memory that achieves non-volatility with a structure similar to DRAM. The capacitor in the DRAM memory has a dielectric layer that needs to periodic recharge to hold the charge, thus making DRAM a volatile memory while it is replaced by Ferroelectric material in FRAM. Presence of this Ferroelectric material (typically Lead Zirconate Titanate, PZT) makes FRAM non-volatile <a href="https://en.wikipedia.org/wiki/Ferroelectric_RAM">(ref)</a>.
+		</p>
+		<hr>
+		<p>
+			Writing to the FRAM is peformed in a process similar to storing charge in capacitors. A field is applied across the dielectric by charging the plates on either sides of it. This causes the atoms inside the dielectric to orient in "up" or "down" orientation, thus storing '1' or '0'. This change in polarity because of application of electric field produces a power-efficient binary switch <a href="https://www.cypress.com/products/f-ram-nonvolatile-ferroelectric-ram">(ref)</a>. The ferroelectric crystal and its orientation is not affected by magnetic field.
+		</p>
+		<hr>
+		<p>
+			<b>Destructive Read</b>: Reading in FRAM is done through the transistor in 1T-1C structure. The transistor forces the cell into a particular state. For example let us assume the transistor forces the cell into a '0' state. If the cell was already in '0' state, there is no change in the output lines. However, if the cells was in a '1' state, this reorientation of atoms in the dielectric causes a brief pulse of current in the output lines are the electrons are pushed out. Detection of this pulse indicates there was a '1' in FRAM cell. This process causes the original value to be overwritten, thus the reading process is desctructive and needs to be re-written.
+		</p>
+		<hr>
+		<p>
+			<b>Ferroelectric Property</b>: The dielectric or the ferroelectric material has a crystal structure. The PbZT crystal is organized in a <i>perovskite</i> structure where the Lead atoms are at the outermost layer and O atom inside them. The Z/Ti atom in the center form the cat-ion and has two equal and low-energy states. By the application of the electric field, the cat-ion will move in the direction of the field applied. This causes the low-energy state to be aligned in the direction of applied field while and conversely high-energy state will be aligned in the opposite direction. THe mnovement of cation causes either "up-polarization" or "down polarization" thus creating the two states <a href="https://www.cypress.com/file/46186/download">(ref)</a>.
+		</p>
+	</div>
+	<hr>
+
+	<button type="button" class="collapsible">Resistive RAM</i></button>
+	<div class="content">
+		<p>
+			write about RRAM memory here
+		</p>
+	</div>
+	<hr>
+
+	<button type="button" class="collapsible">Intel Optane Memory</i></button>
+	<div class="content">
+		<p>
+			write about 3dxp memory here
+		</p>
+	</div>
+	<hr>
+
+<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+	  coll[i].addEventListener("click", function() {
+	    this.classList.toggle("active");
+	    var content = this.nextElementSibling;
+	    if (content.style.display === "block") {
+	      content.style.display = "none";
+	    } else {
+	      content.style.display = "block";
+	    }
+	  });
+	}
+</script>
+
+</body>
+</html>
